@@ -213,6 +213,3 @@ KillAuraButton.MouseButton1Click:Connect(function()
         DisableKillAura()
     end
 end)
-
-local.Players (Get.Function)
-local.Target
