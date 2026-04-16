@@ -78,7 +78,7 @@ local ContentFrame = Instance.new("Frame")
 ContentFrame.Name = "ContentFrame"
 ContentFrame.Size = UDim2.new(1, 0, 1, -20)
 ContentFrame.Position = UDim2.new(0, 0, 0, 20)
-ContentFrame.BackgroundTransparency = 1
+ContentFrame.BackgroundTransparency = 0.5
 ContentFrame.Visible = true
 ContentFrame.Parent = MainFrame
 
@@ -88,7 +88,7 @@ KillAuraButton.Name = "KillAuraButton"
 KillAuraButton.Size = UDim2.new(0.8, 0, 0, 30)
 KillAuraButton.Position = UDim2.new(0.1, 0, 0.2, 0)
 KillAuraButton.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
-KillAuraButton.BorderSizePixel = 0
+KillAuraButton.BorderSizePixel = 2
 KillAuraButton.Text = "Kill Aura"
 KillAuraButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 KillAuraButton.Font = Enum.Font.SourceSans
