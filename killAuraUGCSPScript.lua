@@ -1,3 +1,4 @@
+
 -- Seachers for player and hooks when found. Same with server.
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
@@ -51,10 +52,10 @@ local CloseButton = Instance.new("TextButton")
 CloseButton.Name = "CloseButton"
 CloseButton.Size = UDim2.new(0, 20, 1, 0)
 CloseButton.Position = UDim2.new(1, -20, 0, 0)
-CloseButton.BackgroundColor3 = Color3.fromRGB(255, 0, 183)
+CloseButton.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 CloseButton.BorderSizePixel = 0
 CloseButton.Text = "X"
-CloseButton.TextColor3 = Color3.fromRGB(255, 0, 183)
+CloseButton.TextColor3 = Color3.fromRGB(255, 255, 0)
 CloseButton.Font = Enum.Font.SourceSans
 CloseButton.TextSize = 14
 CloseButton.Parent = TitleBar
