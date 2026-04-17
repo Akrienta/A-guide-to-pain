@@ -115,7 +115,7 @@ local Range = 100 -- Range (in stud)
 
 -- Variable for rotation
 local BodyAngularVelocity = nil
-local SpinSpeed = 25 -- Rotation speed (rad/s, can be adjusted)
+local SpinSpeed =            -- Rotation speed (rad/s, can be adjusted)
 
 -- GUI close function
 CloseButton.MouseButton1Click:Connect(function()
